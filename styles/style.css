@@ -105,6 +105,32 @@ figure {
   background-repeat: no-repeat;
 }
 
+.content__text-block_type_first-lettered .content__paragraph:first-of-type::first-letter {
+  background-color: var(--accent-color);
+  display: inline-block;
+  padding: 0 4px;
+  margin-right: 1px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content__figure {
+  position: relative;
+  width: calc(100% + 14vi);
+  left: -14vi;
+  margin: 90px 7vi;
+}
+
+.content__picture {
+  width: 100%;
+}
+
+.content__picture-caption {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--text-color);
+}
+
 .footer {
   margin-block-start: 144px;
 }
