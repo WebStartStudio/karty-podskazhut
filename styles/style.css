@@ -45,7 +45,7 @@ figure {
 }
 
 .header__title {
-  margin-bottom: 40px;
+  margin-block-end: 40px;
   font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
   line-height: 90%;
 }
@@ -70,4 +70,41 @@ figure {
 
 .content__link {
   color: inherit;
+}
+
+.content__blockquote {
+  width: 75%;
+  margin: 0 auto 1.5em;
+  font-style: italic;
+  line-height: 200%;
+}
+
+.content__list {
+  list-style: none;
+  padding-inline-start: 40px;
+}
+
+.content__list-item {
+  display: block;
+  position: relative;
+}
+
+.content__list-item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.content__list-item::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/marker-light.svg);
+  top: 3px;
+  left: -25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  margin-block-start: 144px;
 }
