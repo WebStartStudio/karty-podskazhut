@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 p,
 h1,
 h2,
