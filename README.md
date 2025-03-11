@@ -34,7 +34,7 @@
 
 ## 🎨 Демо
 
-Ссылка на сайт: [Добавить ссылку на GitHub Pages или Netlify]
+Ссылка на сайт: [https://webstartstudio.github.io/karty-podskazhut/]
 
 ---
 
@@ -69,5 +69,5 @@
 
 Разработано **Еленой Масловской** 🚀✨
 
-GitHub: [Ваш GitHub](https://github.com/WebStartStudio)
+GitHub: [My GitHub](https://github.com/WebStartStudio)
 
