@@ -14,13 +14,32 @@
   <body class="page theme_dark">
     <header class="header">
       <h1 class="header__title heading content-section">Карты подскажут</h1>
+      <nav class="header__menu content-section">
+        <div class="header__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+            <use href="./images/logo.svg#logo"></use>
+          </svg>
+        </div>
+        <ul class="header__theme-toggler">
+          <li>
+            <button class="header__theme-button header__theme-button_type_dark">
+              Тёмная
+            </button>
+          </li>
+          <li>
+            <button class="header__theme-button header__theme-button_type_light header__theme-button_is-active" disabled>
+              Светлая
+            </button>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="content content-section">
       <h2 class="content__title heading">
         Креативный подход к решению проблем
       </h2>
       <div class="content__text-block content__text-block_type_first-lettered">
-        <p class="content__paragraph ">
+        <p class="content__paragraph">
           Творческие кризисы, кажется, рано или поздно испытывает любой человек.
           Часто бывает так, что вы сталкиваетесь с проблемой, не можете решить
           её с первого раза и начинаете думать, что вообще ни на что не
@@ -46,14 +65,26 @@
       </div>
       <figure class="content__figure">
         <picture>
-          <source srcset="./images/cards-2x.avif 2x, ./images/cards-1x.avif 1x" type="image/avif">
-          <source srcset="./images/cards-2x.webp 2x, ./images/cards-1x.webp 1x" type="image/webp">
-          <img class="content__picture" src="./images/cards-1x.png" srcset="./images/cards-2x.png 2x" alt="Карточки Oblique Strategies" loading="lazy">
+          <source
+            srcset="./images/cards-2x.avif 2x, ./images/cards-1x.avif 1x"
+            type="image/avif"
+          />
+          <source
+            srcset="./images/cards-2x.webp 2x, ./images/cards-1x.webp 1x"
+            type="image/webp"
+          />
+          <img
+            class="content__picture"
+            src="./images/cards-1x.png"
+            srcset="./images/cards-2x.png 2x"
+            alt="Карточки Oblique Strategies"
+            loading="lazy"
+          />
         </picture>
         <figcaption class="content__picture-caption">
           Колода Oblique Strategies
         </figcaption>
-    </figure>
+      </figure>
       <div class="content__text-block">
         <p class="content__paragraph">
           Oblique Strategies в основном используют музыканты, но колода подходит
@@ -109,14 +140,10 @@
 
       <article class="content__card">
         <h3 class="content__card-title heading">
-          Use an 
-        <span class="colored-text">
-          old idea
-        </span>
+          Use an
+          <span class="colored-text"> old idea </span>
         </h3>
-        <p class="content__card-subtitle">
-          Воспользуйтесь старой идеей
-        </p>
+        <p class="content__card-subtitle">Воспользуйтесь старой идеей</p>
       </article>
 
       <h2 class="content__title heading">Кто пользовался Oblique Strategies</h2>
@@ -128,18 +155,16 @@
           <li class="content__list-item">
             Talking Heads и Дэвид Бирн в сольной карьере;
           </li>
-          <li class="content__list-item">
-            Coldplay;
-          </li>
-          <li class="content__list-item">
-            MGMT.
-          </li>
+          <li class="content__list-item">Coldplay;</li>
+          <li class="content__list-item">MGMT.</li>
         </ul>
       </div>
     </main>
-    <footer class="footer"></footer>
-
-    <!-- Раскомментируйте строчку ниже, когда вёрстка будет готова. Если вы назвали все классы. как нужно, переключатель темы будет работать -->
-    <!-- <script src="./scripts/theme-changer.js"></script> -->
+    <footer class="footer">
+      <p class="footer__copyright">
+        VЁRSTKA
+      </p>
+    </footer>
+  <script src="./scripts/theme-changer.js"></script>
   </body>
 </html>
